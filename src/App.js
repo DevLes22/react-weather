@@ -13,5 +13,5 @@ alert(`The weather is ${response.data.main.temp}`);
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=${apiKey}&units=${units}`;
     axios.get(apiUrl).then(handleResponse);
 
-  return <h1>My React App</h1>;
+  return <h1> React App</h1>;
 }
