@@ -1,0 +1,86 @@
+.search-container {
+    background-color: rgb(36, 35, 60, 0.4);
+    border-radius: 4px;
+    color: white;
+    width: 990px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.search-engine {
+    margin: 20px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#get-location-button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #ffff;
+    background-color: rgb(36, 35, 60, 0.4);
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    transition: all 200ms ease-in-out;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    transition: all 200ms ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    border-radius: 4px;
+    width: 700px;
+    background-color: transparent;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+.current-temperature {
+    font-size: 35px;
+    position: relative;
+    left: 70px;
+    top: 20px;
+}
+
+.current-day {
+    font-size: smaller;
+}
+
+.main-container {
+    background-color: rgb(36, 35, 60, 0.4);
+    border-radius: 4px;
+    color: white;
+    width: 990px;
+    padding: 25px 25px;
+    margin-left: 130px;
+    text-align: center;
+}
+
+.parameters {
+    text-align: center;
+    font-size: smaller;
+}
+
+#icon {
+    position: relative;
+    left: 20px;
+}
+.description {
+    text-transform: capitalize;
+    }
