@@ -15,6 +15,17 @@ export default function App() {
           <Weather defaultCity="Kyiv" />
         </div>
       </div>
+      <footer>
+        <a
+          href="https://github.com/DevLes22/react-weather"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          Open-source code{" "}
+        </a>{" "}
+        by Lesia Veretnik
+      </footer>
     </div>
   );
 }
